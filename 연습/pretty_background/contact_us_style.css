@@ -1,0 +1,41 @@
+div,
+input,
+select,
+textarea {
+  box-sizing: border-box;
+}
+body {
+  margin: 30px;
+  background-color: rgb(109, 109, 109);
+}
+html {
+  line-height: 1.15; /*기본 행간 높이*/
+}
+.white-box {
+  background-color: white;
+  padding: 30px;
+  width: 80%;
+  max-width: 550px;
+  margin: auto;
+  height: auto;
+}
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+.name-box {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+.yellow-button {
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+}

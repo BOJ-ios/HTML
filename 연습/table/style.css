@@ -1,0 +1,47 @@
+div {
+  width: 100%;
+  box-sizing: border-box;
+}
+table {
+  border: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 15px;
+  margin: auto;
+}
+body {
+  margin: 0;
+  background-color: rgb(186, 224, 255);
+}
+html {
+  line-height: 1.15; /*기본 행간 높이*/
+}
+
+.cart {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+}
+.Edit_your_shopping_cart {
+  color: rgb(50, 68, 129);
+}
+.Choose_payment_method {
+  border-radius: 5px;
+  border: 0px;
+  background-color: rgb(50, 68, 129);
+  color: white;
+  padding: 20px;
+}
+.cart-table td,
+.cart-table th {
+  padding: 15px;
+  border-bottom: 1px solid rgb(186, 224, 255);
+}
+.cart-table th:nth-child(2) {
+  width: 700px;
+}
+.table-image {
+  width: 60px;
+}
