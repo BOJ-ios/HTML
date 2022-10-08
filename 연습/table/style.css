@@ -45,3 +45,38 @@ html {
 .table-image {
   width: 60px;
 }
+
+.p_button {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}
+.p_button:hover {
+  background-color: chocolate;
+}
+.p_button:focus {
+  background-color: grey;
+}
+.p_button:active {
+  background-color: brown;
+}
+.p_test {
+  font-size: 21px;
+}
+.p_test:hover {
+  border: 2px solid aqua;
+}
+
+.p_link {
+  text-decoration: none;
+}
+.p_link:link {
+  color: black;
+}
+.p_link:visited {
+  color: black;
+}
